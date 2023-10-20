@@ -41,7 +41,7 @@ header {
   color: #FAFAFA;
 }
 
-.main-visual {
+#main-visual {
   width: 100%;
   height: 650px;
   background-image:url('img/mv.png');
@@ -63,7 +63,12 @@ header {
   text-align: center
 }
 
-.portfolio {
+#portfolio {
+  background-color: #ECEFF1;
+  padding-bottom: 90px;
+}
+
+.portfolio-container {
   width: 920px;
   margin: 0 auto;
 }
@@ -90,7 +95,7 @@ header {
   border-radius: 0px;/*線の丸み*/
 }
 
-.portfolio-contents {
+.contents {
   font-size: 16px;
   color: #000000;
   text-align: center;
@@ -100,10 +105,9 @@ header {
 .portfolio-item-box {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 90px;
 }
 
-.portfolio-item-1{
+.portfolio-item:nth-child(1){
   background-image:url('img/sketch.jpg');
   background-size: cover;
   background-position: center;
@@ -113,7 +117,7 @@ header {
   margin-bottom: 10px;
 }
 
-.portfolio-item-2{
+.portfolio-item:nth-child(2){
   background-image:url('img/websuku.png');
   background-size: cover;
   background-position: center;
@@ -123,7 +127,7 @@ header {
   margin-bottom: 10px;
 }
 
-.portfolio-item-3{
+.portfolio-item:nth-child(3){
   background-image:url('img/write.jpg');
   background-size: cover;
   background-position: center;
@@ -132,7 +136,7 @@ header {
   margin-bottom: 10px;
 }
 
-.portfolio-item-4{
+.portfolio-item:nth-child(4){
   background-image:url('img/webcamp.png');
   background-size: cover;
   background-position: center;
@@ -141,7 +145,7 @@ header {
   margin-right:10px;
 }
 
-.portfolio-item-5{
+.portfolio-item:nth-child(5){
   background-image:url('img/talk.jpg');
   background-size: cover;
   background-position: center;
@@ -150,10 +154,45 @@ header {
   margin-right:10px;
 }
 
-.portfolio-item-6{
+.portfolio-item:nth-child(6){
   background-image:url('img/webcamp-mother.png');
   background-size: cover;
   background-position: center;
   width: 300px;
   height: 250px;
+}
+
+#feature {
+  padding-bottom: 90px;
+}
+
+.feature-container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feature-item-box {
+  display: flex;
+}
+
+.feature-item {
+  width:320px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.feature-item:last-child {
+  margin-right: 0;
+}
+
+.feature-detail-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.feature-detail-contents {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
 }
