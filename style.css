@@ -196,3 +196,45 @@ header {
   color: #000000;
   text-align: left;
 }
+
+#profile {
+  background-color: #ECEFF1;
+  padding-bottom: 90px;
+}
+
+.profile-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-box {
+  display: flex;
+}
+
+.profile-left {
+  width: 512px;
+}
+
+.profile-icon {
+  background-image: url('img/my-icon.jpg');
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.profile-right {
+  width: 512px;
+}
+
+.profile-detail-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-detail-contents {
+  font-size: 16px;
+  color: #000000;
+  overflow-wrap: break-word;
+  margin-bottom: 20px;
+}
