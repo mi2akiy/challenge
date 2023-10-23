@@ -238,3 +238,61 @@ header {
   overflow-wrap: break-word;
   margin-bottom: 20px;
 }
+
+#contact {
+  padding-bottom: 90px;
+}
+
+.contact-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-box {
+  display: flex;
+}
+
+.contact-left {
+  width: 400px;
+}
+
+.contact-item-left {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.contact-detail-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+
+.contact-right {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.sns-icon {
+  margin-right: 20px;
+}
+
+.sns-icon:last-child {
+  margin-right: 0;
+}
+
+.contact-item-right {
+  width: 190px;
+  margin: 0 auto;
+}
+
+footer {
+  height: 60px;
+  background-color: #EC715F;
+}
+
+.footer-content {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
+}
