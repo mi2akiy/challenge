@@ -296,3 +296,258 @@ footer {
   text-align: center;
   line-height: 60px;
 }
+
+
+
+/*レスポンシブ対応用CSS*/
+/* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
+@media screen and (max-width: 768px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .nav-list {
+    width: 90%;
+  }
+
+  #main-visual {
+    background-image:url('img/code.png');
+  }
+
+  .portfolio-container {
+    width: 90%;
+  }
+
+  .portfolio-item-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-item:nth-child(1){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(2){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(3){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(4){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(5){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(6){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .feature-container {
+    width: 90%;
+  }
+
+  .feature-item-box {
+    display: block;
+  }
+
+  .feature-item {
+    margin: 0 auto;
+  }
+  
+  .feature-item:nth-child(2) {
+    margin-top: 10px;
+  }
+  
+  .feature-item:last-child {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .profile-container {
+    width: 90%;
+  }
+
+  .profile-box {
+    display: block;
+  }
+
+  .profile-left {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .profile-right {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contact-container {
+    width: 90%;
+  }
+
+  .contact-box {
+    display: block;
+  }
+
+  .contact-left {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-item-left {
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .contact-right {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-item-right {
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+
+/* スマートフォンサイズ（425px）以下の際に適用される設定 */
+@media screen and (max-width: 425px) {
+  .container {
+  width: 90%;
+  }
+
+  .nav-list {
+    width: 90%;
+  }
+
+  #main-visual {
+    background-image:url('img/code.png');
+  }
+
+  .portfolio-container {
+    width: 90%;
+  }
+
+  .portfolio-item-box {
+    display: block;
+    justify-content: center;
+  }
+
+  .portfolio-item:nth-child(1){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(2){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(3){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(4){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(5){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .portfolio-item:nth-child(6){
+    width: 90%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .feature-container {
+    width: 90%;
+  }
+
+  .feature-item-box {
+    display: block;
+  }
+
+  .feature-item {
+    width:90%;
+  }
+
+  .profile-container {
+    width: 90%;
+  }
+
+  .profile-box {
+    display: block;
+  }
+
+  .profile-left {
+    width: 90%;
+  }
+
+  .profile-icon {
+    width: 90%;
+  }
+
+  .profile-right {
+    width: 90%;
+  }
+
+  .contact-container {
+    width: 90%;
+  }
+
+  .contact-box {
+    display: block;
+  }
+
+  .contact-left {
+    width: 90%;
+  }
+
+  .contact-item-left {
+    width: 90%;
+  }
+
+  .contact-right {
+    width: 90%;
+  }
+
+  .contact-item-right {
+    width: 90%;
+  }
+}
